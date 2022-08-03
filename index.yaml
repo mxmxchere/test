@@ -477,6 +477,18 @@ entries:
     version: 1.57.0
   runtime-gvisor:
   - apiVersion: v2
+    created: "2022-08-03T16:14:44.80935788+02:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for runtime-gvisor
+    digest: 39d7aafa2e4edbf9df63858acafc561376b2e73dfa40bc28283f651c142ae22a
+    name: runtime-gvisor
+    urls:
+    - https://github.com/mxmxchere/test/releases/download/runtime-gvisor-v0.3.0/runtime-gvisor-v0.3.0.tgz
+    version: v0.3.0
+  - apiVersion: v2
     created: "2022-08-03T16:14:30.041969635+02:00"
     dependencies:
     - condition: controller.enabled
@@ -488,4 +500,4 @@ entries:
     urls:
     - https://github.com/mxmxchere/test/releases/download/runtime-gvisor-v0.2.0/runtime-gvisor-v0.2.0.tgz
     version: v0.2.0
-generated: "2022-08-03T16:14:30.042139914+02:00"
+generated: "2022-08-03T16:14:44.809930414+02:00"
