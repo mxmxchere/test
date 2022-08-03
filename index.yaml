@@ -298,6 +298,28 @@ entries:
     - https://github.com/mxmxchere/test/releases/download/gardener-controlplane-v1.52.1/gardener-controlplane-v1.52.1.tgz
     version: v1.52.1
   - apiVersion: v2
+    created: "2022-08-03T17:00:59.829392438+02:00"
+    dependencies:
+    - condition: utils-common.enabled
+      name: utils-common
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    - condition: application.enabled
+      name: application
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    description: A Helm chart to deploy the Gardener controlplane (API server, controller-manager,
+      scheduler, admission-controller)
+    digest: c3ce20e1be1015d3eb693f2b41ef1b4c4fb35d207b962096c666c8b746de12de
+    name: gardener-controlplane
+    urls:
+    - https://github.com/mxmxchere/test/releases/download/gardener-controlplane-v1.52.0/gardener-controlplane-v1.52.0.tgz
+    version: v1.52.0
+  - apiVersion: v2
     created: "2022-08-03T16:12:46.936411867+02:00"
     dependencies:
     - condition: utils-common.enabled
@@ -1964,4 +1986,4 @@ entries:
     urls:
     - https://github.com/mxmxchere/test/releases/download/shoot-dns-service-v1.19.0/shoot-dns-service-v1.19.0.tgz
     version: v1.19.0
-generated: "2022-08-03T16:24:58.391984828+02:00"
+generated: "2022-08-03T17:01:20.565680416+02:00"
