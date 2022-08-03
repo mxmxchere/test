@@ -412,6 +412,21 @@ entries:
     urls:
     - https://github.com/mxmxchere/test/releases/download/gardenlet-v1.49.2/gardenlet-v1.49.2.tgz
     version: v1.49.2
+  - apiVersion: v2
+    created: "2022-08-03T16:13:25.801731638+02:00"
+    dependencies:
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: b4da687ad9c54f7bd19c01537d59c1a10e151ece74014ba086353175321c083d
+    name: gardenlet
+    urls:
+    - https://github.com/mxmxchere/test/releases/download/gardenlet-v1.49.0/gardenlet-v1.49.0.tgz
+    version: v1.49.0
   identity:
   - apiVersion: v2
     created: "2022-08-03T16:09:27.303726937+02:00"
@@ -429,4 +444,4 @@ entries:
     urls:
     - https://github.com/mxmxchere/test/releases/download/identity-1.57.0/identity-1.57.0.tgz
     version: 1.57.0
-generated: "2022-08-03T16:13:13.84655005+02:00"
+generated: "2022-08-03T16:13:27.75485151+02:00"
