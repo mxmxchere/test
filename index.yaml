@@ -35,6 +35,28 @@ entries:
     version: 1.57.0
   gardener-controlplane:
   - apiVersion: v2
+    created: "2022-08-03T16:13:11.956921062+02:00"
+    dependencies:
+    - condition: application.enabled
+      name: application
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    - condition: utils-common.enabled
+      name: utils-common
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardener controlplane (API server, controller-manager,
+      scheduler, admission-controller)
+    digest: f06c83ffbcb0b858eb4d64d481b5f69850dd0ee61d8f43bbf430b0c7260d5e33
+    name: gardener-controlplane
+    urls:
+    - https://github.com/mxmxchere/test/releases/download/gardener-controlplane-v1.52.1/gardener-controlplane-v1.52.1.tgz
+    version: v1.52.1
+  - apiVersion: v2
     created: "2022-08-03T16:12:59.131447505+02:00"
     dependencies:
     - condition: application.enabled
@@ -407,4 +429,4 @@ entries:
     urls:
     - https://github.com/mxmxchere/test/releases/download/identity-1.57.0/identity-1.57.0.tgz
     version: 1.57.0
-generated: "2022-08-03T16:13:01.070955936+02:00"
+generated: "2022-08-03T16:13:13.84655005+02:00"
