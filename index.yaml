@@ -2,6 +2,14 @@ apiVersion: v1
 entries:
   dashboard:
   - apiVersion: v2
+    created: "2022-08-03T15:58:03.396929913+02:00"
+    description: A Helm chart for Gardener dashboard
+    digest: 9555c880e26752de40b41213f953b29a77c296d65149ed9a53aa779a07de1607
+    name: dashboard
+    urls:
+    - https://github.com/mxmxchere/test/releases/download/dashboard-1.60.0/dashboard-1.60.0.tgz
+    version: 1.60.0
+  - apiVersion: v2
     created: "2022-08-03T15:57:47.658468946+02:00"
     description: A Helm chart for Gardener dashboard
     digest: dc906eb3faf9d33f102449d3406ef946c1780d77720f881ce8ff6cfdf8e342a8
@@ -161,4 +169,4 @@ entries:
     urls:
     - https://github.com/mxmxchere/test/releases/download/gardenlet-v1.49.2/gardenlet-v1.49.2.tgz
     version: v1.49.2
-generated: "2022-08-03T15:57:49.250871078+02:00"
+generated: "2022-08-03T15:58:05.239525344+02:00"
