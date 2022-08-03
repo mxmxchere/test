@@ -35,6 +35,18 @@ entries:
     version: 1.57.0
   external-dns-management:
   - apiVersion: v2
+    created: "2022-08-03T16:17:10.52954636+02:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for external-dns-management
+    digest: 27cfc2604b7769f6bd9a8de0c22bc7443b409176e6b8d0f062666e258405184d
+    name: external-dns-management
+    urls:
+    - https://github.com/mxmxchere/test/releases/download/external-dns-management-v0.11.0/external-dns-management-v0.11.0.tgz
+    version: v0.11.0
+  - apiVersion: v2
     created: "2022-08-03T16:16:52.766571983+02:00"
     dependencies:
     - condition: controller.enabled
@@ -597,4 +609,4 @@ entries:
     urls:
     - https://github.com/mxmxchere/test/releases/download/runtime-gvisor-v0.2.0/runtime-gvisor-v0.2.0.tgz
     version: v0.2.0
-generated: "2022-08-03T16:16:58.344423173+02:00"
+generated: "2022-08-03T16:17:16.760243807+02:00"
