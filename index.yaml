@@ -33,6 +33,19 @@ entries:
     urls:
     - https://github.com/mxmxchere/test/releases/download/dashboard-1.57.0/dashboard-1.57.0.tgz
     version: 1.57.0
+  external-dns-management:
+  - apiVersion: v2
+    created: "2022-08-03T16:15:43.558497365+02:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for external-dns-management
+    digest: c73ee26aa67f3b13dd1b7198b241a456e210d70964690383c47b8fcb5a56f9af
+    name: external-dns-management
+    urls:
+    - https://github.com/mxmxchere/test/releases/download/external-dns-management-v0.10.3/external-dns-management-v0.10.3.tgz
+    version: v0.10.3
   gardener-controlplane:
   - apiVersion: v2
     created: "2022-08-03T16:13:11.956921062+02:00"
@@ -536,4 +549,4 @@ entries:
     urls:
     - https://github.com/mxmxchere/test/releases/download/runtime-gvisor-v0.2.0/runtime-gvisor-v0.2.0.tgz
     version: v0.2.0
-generated: "2022-08-03T16:15:31.968899961+02:00"
+generated: "2022-08-03T16:15:49.4417069+02:00"
