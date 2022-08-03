@@ -1,0 +1,139 @@
+apiVersion: v1
+entries:
+  gardenlet:
+  - apiVersion: v2
+    created: "2022-08-03T15:44:32.007326539+02:00"
+    dependencies:
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: d3448f59ad72ede34886cc1ddddc29ebcd4d72837f31763d7449cdc2b4784dc1
+    name: gardenlet
+    urls:
+    - https://github.com/mxmxchere/test/releases/download/gardenlet-v1.52.1/gardenlet-v1.52.1.tgz
+    version: v1.52.1
+  - apiVersion: v2
+    created: "2022-08-03T15:44:31.804303431+02:00"
+    dependencies:
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: 8492149cda7187df190d9ae5a5e19e96a38585cc9d07724bd6a71544609b6770
+    name: gardenlet
+    urls:
+    - https://github.com/mxmxchere/test/releases/download/gardenlet-v1.52.0/gardenlet-v1.52.0.tgz
+    version: v1.52.0
+  - apiVersion: v2
+    created: "2022-08-03T15:44:31.631142913+02:00"
+    dependencies:
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: fc7d089a46be158e7588607268148c9ec9ceda03b7400694162a854257282619
+    name: gardenlet
+    urls:
+    - https://github.com/mxmxchere/test/releases/download/gardenlet-v1.51.0/gardenlet-v1.51.0.tgz
+    version: v1.51.0
+  - apiVersion: v2
+    created: "2022-08-03T15:44:31.478744565+02:00"
+    dependencies:
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: 910e3fa6ff34068e008814efac649ce3516bd0587678694d083401632beeba56
+    name: gardenlet
+    urls:
+    - https://github.com/mxmxchere/test/releases/download/gardenlet-v1.50.2/gardenlet-v1.50.2.tgz
+    version: v1.50.2
+  - apiVersion: v2
+    created: "2022-08-03T15:44:31.315265371+02:00"
+    dependencies:
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: e022dcfb7f24102724f7407256228d2fca1763c7f974d68484ff2a133db5f080
+    name: gardenlet
+    urls:
+    - https://github.com/mxmxchere/test/releases/download/gardenlet-v1.50.1/gardenlet-v1.50.1.tgz
+    version: v1.50.1
+  - apiVersion: v2
+    created: "2022-08-03T15:44:31.135453698+02:00"
+    dependencies:
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: 6a1f2c618ce9d684b5842f29683df9caf93dd672efe86619206c4614827946df
+    name: gardenlet
+    urls:
+    - https://github.com/mxmxchere/test/releases/download/gardenlet-v1.50.0/gardenlet-v1.50.0.tgz
+    version: v1.50.0
+  - apiVersion: v2
+    created: "2022-08-03T15:44:30.974966959+02:00"
+    dependencies:
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: e5feca2ac7de11708ae5e80346adf729649fb5817b9731558141009cf0919ebd
+    name: gardenlet
+    urls:
+    - https://github.com/mxmxchere/test/releases/download/gardenlet-v1.49.4/gardenlet-v1.49.4.tgz
+    version: v1.49.4
+  - apiVersion: v2
+    created: "2022-08-03T15:44:30.814867897+02:00"
+    dependencies:
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: dbfe63cb00332f02f8e6577a200afcad4177c9c6cde222768b2a47065f73f8ea
+    name: gardenlet
+    urls:
+    - https://github.com/mxmxchere/test/releases/download/gardenlet-v1.49.3/gardenlet-v1.49.3.tgz
+    version: v1.49.3
+  - apiVersion: v2
+    created: "2022-08-03T15:44:30.639746509+02:00"
+    dependencies:
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: 288cafcd18dbfb9d7e9b8ccad9aae8fec48fe69e6bc3a784d13bd74eeeab582d
+    name: gardenlet
+    urls:
+    - https://github.com/mxmxchere/test/releases/download/gardenlet-v1.49.2/gardenlet-v1.49.2.tgz
+    version: v1.49.2
+generated: "2022-08-03T15:44:32.007460686+02:00"
