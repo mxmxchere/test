@@ -444,6 +444,14 @@ entries:
     version: v1.49.0
   identity:
   - apiVersion: v2
+    created: "2022-08-03T16:14:11.626253599+02:00"
+    description: A Helm chart for kubernetes identity server
+    digest: d5851268eca6a1955bc970177612a12bbd02a9233ca5beafe71918e2c6b52474
+    name: identity
+    urls:
+    - https://github.com/mxmxchere/test/releases/download/identity-1.60.0/identity-1.60.0.tgz
+    version: 1.60.0
+  - apiVersion: v2
     created: "2022-08-03T16:13:57.522548379+02:00"
     description: A Helm chart for kubernetes identity server
     digest: 55ec01af7125de8bc0057cc3304cd8319b131432be36c86e0e14d2fb5ac6fe81
@@ -467,4 +475,4 @@ entries:
     urls:
     - https://github.com/mxmxchere/test/releases/download/identity-1.57.0/identity-1.57.0.tgz
     version: 1.57.0
-generated: "2022-08-03T16:13:57.523531632+02:00"
+generated: "2022-08-03T16:14:11.626421899+02:00"
