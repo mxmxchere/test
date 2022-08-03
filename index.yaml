@@ -475,4 +475,17 @@ entries:
     urls:
     - https://github.com/mxmxchere/test/releases/download/identity-1.57.0/identity-1.57.0.tgz
     version: 1.57.0
-generated: "2022-08-03T16:14:11.626421899+02:00"
+  runtime-gvisor:
+  - apiVersion: v2
+    created: "2022-08-03T16:14:30.041969635+02:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for runtime-gvisor
+    digest: 3624e826a08e66ccd7e45f5977bbbbbe2e38d0db497ea1c37685e76ce90c5d95
+    name: runtime-gvisor
+    urls:
+    - https://github.com/mxmxchere/test/releases/download/runtime-gvisor-v0.2.0/runtime-gvisor-v0.2.0.tgz
+    version: v0.2.0
+generated: "2022-08-03T16:14:30.042139914+02:00"
